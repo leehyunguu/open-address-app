@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/open-address-api/build/
+/open-address-api/build/classes/java/main/
+/open-address-core/build/
+/open-address-core/build/classes/java/main/
+/open-address-postgresql/build/

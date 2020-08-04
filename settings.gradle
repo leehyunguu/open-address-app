@@ -1,0 +1,5 @@
+rootProject.name = 'open-address-app'
+
+include 'open-address-api'
+include 'open-address-core'
+include 'open-address-postgresql'

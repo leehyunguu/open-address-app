@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://leehyunguu.asuscomm.com:55432/postgres
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create
