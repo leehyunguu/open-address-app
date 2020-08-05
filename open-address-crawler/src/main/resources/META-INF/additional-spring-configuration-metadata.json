@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "address.url",
+      "type": "java.lang.String",
+      "description": "공공 주소 데이터 페이지 주소."
+    }
+  ]
+}

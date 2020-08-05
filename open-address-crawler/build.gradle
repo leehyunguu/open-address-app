@@ -1,12 +1,12 @@
 dependencies {
-    implementation project(':open-address-crawler')
     implementation project(':open-address-core')
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'net.sourceforge.htmlunit', name: 'htmlunit'
+    implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
 }
 
 bootJar {
-    enabled = true
+    enabled = false
 }
